@@ -1,0 +1,132 @@
+body {
+    font-family: 'Inter', 'Merriweather';
+}
+
+
+/* Header style */
+.header {
+    background-image: linear-gradient(to right, #070211 0%, #07021100 100%), url('../Images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 1320px;
+    border-radius: 12px;
+    margin-top: 45px;
+    margin-left: 100px;
+    /* flex-shrink: 0;  */
+
+}
+
+.banner {
+    /* align-items: center; */
+    color: #fff;
+    text-align: center;
+    padding: 150px 450px 20px 450px;
+}
+
+
+/* Section 1 Style */
+.section1 {
+    margin-top: 100px;
+    margin-left: 380px;
+    margin-right: 405px;
+    margin-bottom: 100px;
+}
+
+.discount {
+    text-align: center;
+}
+
+.new-year-image {
+    margin-top: 50px;
+    height: 500px;
+    width: 800px;
+}
+
+#off {
+    color: #F00;
+    font-family: Inter;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+#deal {
+    margin-top: 0px;
+    color: #F00;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 24px;
+    /* font-style: normal; */
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+#categories {
+    margin-top: 0px;
+    color: #070211;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+/* section 2 style */
+
+.section2 {
+    background-image: linear-gradient(to right, #070211 0%, #07021100 100%), url('../Images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 1320px;
+    border-radius: 12px;
+    /* margin-top: 45px; */
+    margin-left: 100px;
+}
+
+.title {
+    width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    /* line-height: 88px; */
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    padding: 126px 552px 0px 126px;
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-top: 0px;
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 30px; */
+    /* 166.667% */
+    padding: 0px 552px 0px 126px;
+    margin-bottom: 45px;
+}
+
+li {
+    margin-top: 0px;
+    list-style: none;
+    padding: 0px 1050px 150px 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 620;
+}
