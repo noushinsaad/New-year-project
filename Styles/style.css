@@ -13,6 +13,7 @@ body {
     border-radius: 12px;
     margin-top: 45px;
     margin-left: 100px;
+    margin-bottom: 0px;
 }
 
 .banner {
@@ -25,14 +26,14 @@ body {
 
 /* Section 1 Style */
 .section1 {
+    margin: 100px 405px 100px 380px;
+    align-items: center;
     margin-top: 100px;
-    margin-left: 380px;
-    margin-right: 405px;
-    margin-bottom: 100px;
 }
 
 .discount {
-    text-align: center;
+    padding: 0px 100px 40px 160px;
+    max-width: 420px;
 }
 
 .new-year-image {
@@ -41,34 +42,33 @@ body {
     width: 800px;
 }
 
-.off {
+#off {
     color: #F00;
     font-family: Inter;
     font-size: 65px;
     font-weight: 700;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 
-.deal {
+#deal {
     margin-top: 0px;
     color: #F00;
-    /* text-align: center; */
+    text-align: center;
     font-family: Inter;
     font-size: 24px;
-    /* font-style: normal; */
     font-weight: 500;
     margin-bottom: 10px;
 
 }
 
-.categories {
+#categories {
     margin-top: 0px;
     color: #070211;
-    /* text-align: center; */
+    text-align: center;
     font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
 
 }
@@ -79,6 +79,7 @@ body {
     background-image: linear-gradient(to right, #070211 0%, #07021100 100%), url('../Images/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
     height: 600px;
     width: 1320px;
     border-radius: 12px;
@@ -86,7 +87,7 @@ body {
     margin-bottom: 120px;
 }
 
-.title {
+.section2-part1 h1 {
     width: 642px;
     color: #FFF;
     font-family: Merriweather;
@@ -95,12 +96,12 @@ body {
     font-weight: 900;
     /* line-height: 88px; */
     /* 137.5% */
-    letter-spacing: 7.04px;
-    padding: 126px 552px 0px 126px;
+    letter-spacing: 7px;
+    padding: 126px 90px 0px 126px;
     margin-bottom: 20px;
 }
 
-.description {
+.section2-part1 p {
     margin-top: 0px;
     width: 697px;
     color: rgba(255, 255, 255, 0.80);
@@ -110,23 +111,27 @@ body {
     font-weight: 400;
     /* line-height: 30px; */
     /* 166.667% */
-    padding: 0px 552px 0px 126px;
+    padding: 0px 90px 0px 126px;
     margin-bottom: 45px;
 }
 
-li {
+.section2-part1 li {
     margin-top: 0px;
     list-style: none;
-    padding: 0px 1050px 150px 150px;
+    padding: 0px 600px 150px 150px;
 }
 
-a {
+.section2-part1 li a {
     text-decoration: none;
     color: #FFF;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-weight: 620;
+}
+
+.section2-part2 {
+    padding: 65px 135px 68px 0px;
 }
 
 /* section 3 */
@@ -185,7 +190,6 @@ a {
 /* section 4 */
 
 .section4 {
-    background-color: antiquewhite;
     margin-top: 120px;
     margin-left: 100px;
     margin-right: 140px;
@@ -228,11 +232,171 @@ a {
 
 .section4-p {
     margin-top: 20px;
-    color: rgba(7, 2, 17, 0.60);
+    color: #07021199;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
+}
+
+/* section 5 style */
+
+.section5 {
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: 140px;
+    background-image: url('../Images/Rectangle\ 2.png'),url('../Images/Rectangle\ 1.png');
+    /* ,url('../Images/Rectangle\ 1.png') */
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 990px;
+    background-position: bottom, right;
+}
+
+.section5-part1 h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.section5-part1 h1 {
+    margin-top: 0px;
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.section5-part1 p {
+    margin-top: 0px;
+    color: #07021199;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 65px;
+}
+
+/* section 6 style */
+
+.section6 {
+    width: 1320px;
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: 140px;
+}
+
+.section6-part1 h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.section6-part1 h2 {
+    margin-top: 0px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.section6-part1 p {
+    margin-top: 0px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 890px;
+}
+
+/* section 7 style */
+.section7 {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: 140px;
+    width: 1320px;
+    height: 620px;
+}
+
+.section7-part1 {
+    padding: 50px 585px 0px 585px;
+}
+
+.section7-part2 {
+    padding: 0px 212px 40px 212px;
+}
+
+.section7-part3 {
+    padding: 0px 336px 80px 336px;
+}
+
+.section7-part2 h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.section7-part2 p {
+    max-width: 890px;
+    color: #07021199;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    /* line-height: 32px; */
+    /* 160% */
+}
+
+
+
+.section7-part3 input {
+    width: 430px;
+    height: 70px;
+
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    padding-right: 0px;
+    /* background: #F00; */
+
+    color: rgba(7, 2, 17, 0.30);
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.section7-part3 button {
+    width: 210px;
+    height: 72px;
+
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding-left: 0px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* footer style */
@@ -247,14 +411,14 @@ a {
 .footer-part1 {
     display: flex;
     gap: 600px;
-    padding: 120px 275px 25px 120px;  
+    padding: 120px 275px 25px 120px;
 }
 
 .address {
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
-    font-weight: 400; 
+    font-weight: 400;
     max-width: 300px;
 }
 
@@ -263,23 +427,24 @@ a {
     font-family: Inter;
     font-size: 20px;
     line-height: 0px;
-    font-weight: 300px; 
+    font-weight: 300px;
 }
 
-.footer-part2{
-   margin-left: 600px;
-   padding: 30px 0px 30px 0px;
+.footer-part2 {
+    margin-left: 600px;
+    padding: 30px 0px 30px 0px;
 }
 
-.footer-part2 a{
+.footer-part2 a {
     margin-right: 25px;
 }
 
-hr{
+hr {
     margin-left: 50px;
     margin-right: 50px;
 }
-.icons{
+
+.icons {
     display: inline;
     height: 64px;
     width: 64px;
@@ -292,5 +457,5 @@ hr{
     font-family: Inter;
     font-size: 22px;
     font-weight: 400;
-    padding: 25px 100px 125px 120px; 
+    padding: 25px 100px 125px 120px;
 }
