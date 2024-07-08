@@ -304,14 +304,11 @@ h2 {
 /* section 5 style */
 
 .section5 {
-    /* background-image: url('../Images/Rectangle\ 2.png'), url('../Images/Rectangle\ 1.png');
-    background-repeat: no-repeat; */
     width: 1320px;
     height: 985px;
     margin: 0 auto;
     margin-top: 120px;
     margin-bottom: 120px;
-    /* background-position: bottom left, right; */
     position: relative;
 }
 
@@ -323,9 +320,6 @@ h2 {
     width: 1068px;
     height: 260px;
     margin: 0 auto;
-    /* text-align: center;
-    line-height: 20px;
-    padding: 0px 125px 65px 125px; */
 }
 
 .section5-part1 h3 {
@@ -335,8 +329,6 @@ h2 {
     font-weight: 500;
     margin-bottom: 16px;
 }
-
-
 
 .section5-part1 h1 {
     color: #070211;
@@ -374,17 +366,17 @@ h2 {
 .gift-box {
     width: 675x;
     height: 578px;
-    position: relative;
-    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
-.girl-container {
+/* .girl-container img{
     width: 430px;
     height: 450px;
-}
+} */
 
 .section5-discount {
     position: absolute;
@@ -393,10 +385,7 @@ h2 {
     z-index: 1;
 }
 
-.section5-discount img {
-    width: 300px;
-    height: 300px;
-}
+
 
 /* section 6 style */
 
